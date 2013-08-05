@@ -10,7 +10,7 @@ using namespace std;
 /*length为字符数组的总容量*/
 void ReplaceBlank(char str[],int length)
 {
-    if(str==NULL&&length<=0)
+    if(str==NULL||length<=0)
     {
         return;
     }
